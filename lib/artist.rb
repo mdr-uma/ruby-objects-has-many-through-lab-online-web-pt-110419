@@ -21,5 +21,6 @@ class Artist
     song = Song.new(name, genre)
     # song.name = name
     song.artist = self
+    song
   end
 end
