@@ -8,7 +8,7 @@ class Song
       @artist = artist
       @genre = genre
       @@all << self
-      @songs = []
+    
     end
 
     def self.all
